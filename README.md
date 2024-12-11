@@ -133,9 +133,9 @@ server {
         proxy_set_header Host $host;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
-}```
+}
 
-
+```
 Config du fichier docker-compose.yml
  
 ![image](https://github.com/user-attachments/assets/ca584a10-55a9-403f-bfd2-40c862a2bffe)
