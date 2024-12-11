@@ -7,33 +7,6 @@ Date : 11/12/2024
 Fait par : KADI Soulaymane, HOMBOURGER Tomy, BERNARD Jonathan, AHMADI Rateb, FIGAROLI Romain
 
 
-Sommaire :
-
-Table des matières
-Environnement de travail	2
-Configuration des fichiers	3
-Optimisation des images (Dockerfile)	3
-Test et vérification	5
-Test de l’image sur un navigateur	5
-Test de l’image avec la commande curl	5
-Test de l’image qui ne passe par le Reverse Proxy :	6
-Repos Git	7
-Schéma	8
-Questions	8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
