@@ -287,9 +287,13 @@ Accessible via l’adresse : https://github.com/Soutshy/tp-final-docker
 
 
 
+# Docker Hub
 
+## Mes images sont présentes dans mon DockerHub
 
+![image](https://github.com/user-attachments/assets/e5fa2c52-d35a-4bc0-93db-767117642e8a)
 
+https://hub.docker.com/repositories/soulay57050
 
 
 # Schéma 
