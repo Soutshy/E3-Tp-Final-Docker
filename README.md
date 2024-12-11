@@ -6,9 +6,11 @@ Date : 11/12/2024
 
 Fait par : KADI Soulaymane, HOMBOURGER Tomy, BERNARD Jonathan, AHMADI Rateb, FIGAROLI Romain
 
+# Explication du projet 
 
+Dans ce projet, j'ai travaillé sur la conteneurisation de plusieurs applications web et leur mise à disposition via un reverse proxy Nginx, le tout orchestré avec un docker-compose
 
-
+Une partie essentielle du projet a été la configuration de Nginx comme reverse proxy. J'ai créé un fichier de configuration dans lequel j'ai défini les règles pour rediriger les requêtes des utilisateurs vers les bonnes applications. Certaines applications, comme le site HTML5, sont directement accessibles, tandis que d'autres passent par le reverse proxy.
 
 # Environnement de travail 
 
