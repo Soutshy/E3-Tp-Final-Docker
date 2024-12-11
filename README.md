@@ -39,7 +39,7 @@ Ajout du python:3.10-alpine pour chaque image et ajout des &&
  ![image](https://github.com/user-attachments/assets/2d71cbdb-9c99-4f2a-8640-8ec2d3f3cf6d)
 
 
-Config du fichier Appseed
+## Config du fichier Appseed
 
  ![image](https://github.com/user-attachments/assets/c38979a2-55e7-4794-9fcd-465c9273024d)
 
@@ -136,7 +136,7 @@ server {
 }
 
 ```
-Config du fichier docker-compose.yml
+## Config du fichier docker-compose.yml
  
 ![image](https://github.com/user-attachments/assets/ca584a10-55a9-403f-bfd2-40c862a2bffe)
 
