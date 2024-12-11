@@ -141,6 +141,105 @@ Config du fichier docker-compose.yml
 ![image](https://github.com/user-attachments/assets/ca584a10-55a9-403f-bfd2-40c862a2bffe)
 
 
+```
+version: '3.8'
+
+services:
+  django-argon-dashboard:
+    container_name: django_argon_dashboard
+    build: ./django-argon-dashboard
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8000"  
+
+  django-coreui:
+    container_name: django_coreui
+    build: ./django-coreui
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8001"
+
+  django-datta-able:
+    container_name: django_datta_able
+    build: ./django-datta-able
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8002"
+
+  django-material-dashboard:
+    container_name: django_material_dashboard
+    build: ./django-material-dashboard
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8003"
+
+  django-pixel:
+    container_name: django_pixel
+    build: ./django-pixel
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8004"
+
+  django-soft-ui-design:
+    container_name: django_soft_ui_design
+    build: ./django-soft-ui-design
+    restart: always
+    networks:
+      - db_network
+      - web_network
+    expose:
+      - "8005"
+
+  html5:
+    container_name: html5
+    build: ./html5
+    restart: always
+    networks:
+      - web_network
+    ports:
+      - "8080:80"  # Accès direct pour le serveur HTML5
+
+  nginx:
+    container_name: nginx
+    image: "nginx:stable-alpine-slim"
+    restart: always
+    ports:
+      - "80:80"  # Accès via NGINX pour le reverse proxy
+    volumes:
+      - ./nginx:/etc/nginx/conf.d  # Montée du dossier de configuration
+    networks:
+      - web_network
+    depends_on:
+      - django-argon-dashboard
+      - django-coreui
+      - django-datta-able
+      - django-material-dashboard
+      - django-pixel
+      - django-soft-ui-design
+      - html5
+
+networks:
+  db_network:
+    driver: bridge
+  web_network:
+    driver: bridge
+
+```
 
 
 
