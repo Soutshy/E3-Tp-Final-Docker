@@ -45,7 +45,7 @@ Questions	8
 
  
 
-Initialisation de toutes les applications grâce à la commande “Git clone”
+Initialisation de toutes les applications grâce à la commande ```git clone```
 
 ![image](https://github.com/user-attachments/assets/fb45d3b1-9a13-4462-a1a9-dfa204b2717d)
 
