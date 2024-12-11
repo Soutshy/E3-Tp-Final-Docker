@@ -37,7 +37,7 @@ Questions	8
 
 
 
-Environnement de travail 
+# Environnement de travail 
 
 Multipass avec un dossier “tp-final”
 
@@ -55,7 +55,7 @@ Arborescence du projet :
  ![image](https://github.com/user-attachments/assets/427d98cd-981f-4393-8b69-986cace68cee)
 
 
-Configuration des fichiers
+# Configuration des fichiers
 
 Optimisation des images (Dockerfile)
 
@@ -78,7 +78,7 @@ Config du fichier docker-compose.yml
 
 
 
-Test et vérification
+# Test et vérification
 
 Test de l’image sur un navigateur
 
@@ -111,7 +111,7 @@ Logs :
 
 
 
-Repos Git
+# Repos Git
 
  ![image](https://github.com/user-attachments/assets/a5d1c704-5a95-4654-bcdc-6a69b0f3ba15)
 
@@ -126,7 +126,7 @@ Accessible via l’adresse : https://github.com/Soutshy/tp-final-docker
 
 
 
-Schéma 
+# Schéma 
 
 
 
@@ -143,7 +143,7 @@ Schéma
 
 
 
-Questions 
+# Questions 
 
 Qu'est-ce que le devops ?
 Le DevOps, c’est un ensemble de pratiques qui combinent le développement logiciel. Le but principal est d’améliorer la collaboration entre les équipes pour livrer des projets plus rapidement, tout en garantissant la qualité
