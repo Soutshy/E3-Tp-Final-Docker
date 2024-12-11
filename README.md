@@ -291,10 +291,10 @@ Accessible via l’adresse : https://github.com/Soutshy/tp-final-docker
 
 ## Mes images sont présentes dans mon DockerHub
 
-![image](https://github.com/user-attachments/assets/e5fa2c52-d35a-4bc0-93db-767117642e8a)
 
-https://hub.docker.com/repositories/soulay57050
+![image](https://github.com/user-attachments/assets/97a366be-1a40-4568-a4f0-38ddb114665f)
 
+Voici le lien de mon repos sur DockerHub : https://hub.docker.com/repository/docker/soulay57050/projet-kadi/general
 
 # Schéma 
 
