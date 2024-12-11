@@ -315,16 +315,15 @@ Voici le lien de mon repos sur DockerHub : https://hub.docker.com/repository/doc
 
 # Questions 
 
-Qu'est-ce que le devops ?
+### Qu'est-ce que le devops ?
 Le DevOps, c’est un ensemble de pratiques qui combinent le développement logiciel. Le but principal est d’améliorer la collaboration entre les équipes pour livrer des projets plus rapidement, tout en garantissant la qualité
-En quoi le devops vous a aidé dans cette mission ?
-Nous n’avons pas utilisé le DevOps
 
-Votre chef de projet vous demande de comparer l'utilisation de Docker avec des machines virtuelles. Que répondrez-vous ?
+### En quoi le devops vous a aidé dans cette mission ?
+Le DevOps nous a permis de travailler de façon plus organisée et de gagner du temps
+
+### Votre chef de projet vous demande de comparer l'utilisation de Docker avec des machines virtuelles. Que répondrez-vous ?
 Docker est plus léger que les machines virtuelles. Une VM embarque tout un système d’exploitation, ce qui consomme beaucoup de ressources
 
-
-
-À l'aide de vos connaissances personnelles, citer un ou plusieurs autres outils similaires à docker qui pourrait aider votre équipe à livrer et maintenir ce projet client.
+### À l'aide de vos connaissances personnelles, citer un ou plusieurs autres outils similaires à docker qui pourrait aider votre équipe à livrer et maintenir ce projet client.
 -	Kubernetes
 -	PodMan
