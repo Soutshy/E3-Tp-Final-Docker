@@ -39,7 +39,7 @@ Questions	8
 
 # Environnement de travail 
 
-Multipass avec un dossier “tp-final”
+## Multipass avec un dossier “tp-final”
 
 ![image](https://github.com/user-attachments/assets/88f785c6-e156-466f-a70f-488ecb115b1c)
 
@@ -57,7 +57,7 @@ Arborescence du projet :
 
 # Configuration des fichiers
 
-Optimisation des images (Dockerfile)
+## Optimisation des images (Dockerfile)
 
 Ajout du python:3.10-alpine pour chaque image et ajout des &&
 
@@ -80,12 +80,12 @@ Config du fichier docker-compose.yml
 
 # Test et vérification
 
-Test de l’image sur un navigateur
+## Test de l’image sur un navigateur
 
  ![image](https://github.com/user-attachments/assets/4a522158-51c2-457d-b784-e8cda80bab4a)
 
 
-Test de l’image avec la commande curl 
+## Test de l’image avec la commande curl 
 
  ![image](https://github.com/user-attachments/assets/6f39c511-8815-4b6d-91ab-cc72cdfd2a77)
 
@@ -101,7 +101,7 @@ Test de l’image qui ne passe par le Reverse Proxy :
  ![image](https://github.com/user-attachments/assets/6b86b964-69c6-40f3-a104-5239718c8f53)
 
 
-Logs : 
+## Logs : 
 
  ![image](https://github.com/user-attachments/assets/d8e0f2d4-7723-4c41-bf6f-b245a95e78f6)
 
